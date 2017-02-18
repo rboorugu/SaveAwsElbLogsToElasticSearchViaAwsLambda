@@ -1,0 +1,21 @@
+{
+  "Information": [
+    "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+    "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+    "dotnet lambda help",
+    "All the command line options for the Lambda command can be specified in this file."
+  ],
+  "profile": "Rupesh",
+  "region": "us-east-1",
+  "configuration": "Release",
+  "framework": "netcoreapp1.0",
+  "function-runtime": "dotnetcore1.0",
+  "function-memory-size": 256,
+  "function-timeout": 30,
+  "function-handler": "SaveAwsElbLogs::SaveAwsElbLogs.Function::FunctionHandler",
+  "function-name": "saveeslogs",
+  "function-role": "arn:aws:iam::976163286376:role/lambda_basic_vpc_execution_s3",
+  "function-subnets": "subnet-ecfb3ad0,subnet-f2fb3ace,subnet-f3fb3acf,subnet-f43bebaf,subnet-eb3bebb0,subnet-f73bebac,subnet-f53bebae,subnet-00d30f2d,subnet-07d30f2a,subnet-06d30f2b",
+  "function-security-groups": "sg-afeb07d2,sg-e5eb0798,sg-e4eb0799",
+  "environment-variables": ""
+}

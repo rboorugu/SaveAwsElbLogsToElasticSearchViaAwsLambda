@@ -1,0 +1,235 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "76122c2474759d6aae394e0d8ae7b85b2577eb89"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "SaveelbLogs/1.0.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.0.0",
+          "Amazon.Lambda.Serialization.Json": "1.0.1",
+          "Amazon.Lambda.S3Events": "1.0.0",
+          "AWSSDK.S3": "3.3.4.1",
+          "Elasticsearch.Net": "5.0.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "runtime": {
+          "SaveelbLogs.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/1.0.0": {
+        "runtime": {
+          "lib/netstandard1.3/Amazon.Lambda.Core.dll": {}
+        }
+      },
+      "Amazon.Lambda.S3Events/1.0.0": {
+        "dependencies": {
+          "AWSSDK.S3": "3.3.4.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Amazon.Lambda.S3Events.dll": {}
+        }
+      },
+      "Amazon.Lambda.Serialization.Json/1.0.1": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.0.0",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Amazon.Lambda.Serialization.Json.dll": {}
+        }
+      },
+      "Amazon.Lambda.Tools/1.2.0-preview1": {
+        "dependencies": {
+          "AWSSDK.CloudFormation": "3.3.3",
+          "AWSSDK.IdentityManagement": "3.3.0.3",
+          "AWSSDK.Lambda": "3.3.2",
+          "AWSSDK.S3": "3.3.4.1"
+        },
+        "runtime": {
+          "lib/netcoreapp1.0/dotnet-lambda.dll": {}
+        }
+      },
+      "AWSSDK.CloudFormation/3.3.3": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.5.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.CloudFormation.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.5.1": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.IdentityManagement/3.3.0.3": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.5.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.IdentityManagement.dll": {}
+        }
+      },
+      "AWSSDK.Lambda/3.3.2": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.5.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.Lambda.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.3.4.1": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.5.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.S3.dll": {}
+        }
+      },
+      "Elasticsearch.Net/5.0.1": {
+        "dependencies": {
+          "System.Collections.Specialized": "4.0.1",
+          "System.ComponentModel.TypeConverter": "4.1.0",
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Elasticsearch.Net.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Collections.NonGeneric/4.0.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
+        }
+      },
+      "System.Collections.Specialized/4.0.1": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.Specialized.dll": {}
+        }
+      },
+      "System.ComponentModel.Primitives/4.1.0": {
+        "runtime": {
+          "lib/netstandard1.0/System.ComponentModel.Primitives.dll": {}
+        }
+      },
+      "System.ComponentModel.TypeConverter/4.1.0": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.0.1",
+          "System.Collections.Specialized": "4.0.1",
+          "System.ComponentModel.Primitives": "4.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.1.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SaveelbLogs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.Core/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+pBYGHaOaDAhu2j8BA5MhKLwxZM7lgmTSroGyCzEqWMBx+uc+QtpED2ShCAkKjKeedXH+LvJpQAUkEtW7rfcgQ=="
+    },
+    "Amazon.Lambda.S3Events/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tsUIiba+tiWZrlW/L8CckY0UEfAZlvfMPmh8JWFTlWPczEmlVAlgK8L2HtVk9+z0cMZNPwnmiavRBZYAEoqzCg=="
+    },
+    "Amazon.Lambda.Serialization.Json/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5kO/u38+UOUQuNU+8rQpi1cPYUtlT9DMmVnohsj0jIlPjDwhZMXtOxCx8BEosRTAcQIU8AcgchqCYQa5Wm8n8g=="
+    },
+    "Amazon.Lambda.Tools/1.2.0-preview1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PE3IYQ3M/2WDZY169GNSWtBbIXjUfN6w01Po42gWzdla/z+g8DutlXVYI+OMuuLNlMTdNfzIho736yS/sCWXrg=="
+    },
+    "AWSSDK.CloudFormation/3.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JgYlheiokoM7KKdLi0OQftnUChmwm6x2oAaSq6RdyRwTh1RGv+9Znbspbj457FgEKH0a33c7GSTHn8TDACaeAA=="
+    },
+    "AWSSDK.Core/3.3.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RoO3ZKRL+dA4YnYB5Tx0/T3UPNT0gBiFk87dkVZTVmh1GGMtGNDndADG/O6wqicI0XZPj3UveIuJX91vbsD0Og=="
+    },
+    "AWSSDK.IdentityManagement/3.3.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GdJMPqNY8ioO5oOpNWAxBMAzNfN//49iEHCiIYlnhh8KNN4YJye62A6DP4SMypJMFajlaz3CBop+8RH38ShdUw=="
+    },
+    "AWSSDK.Lambda/3.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2ygNYXSnqcAvnOtQ8moK/mLvc95+DGt0aUPLDLQkpiFPsxNW+WuDMg8UHzQCYBp8kcFWIzROpJJEfQ2bJdEAug=="
+    },
+    "AWSSDK.S3/3.3.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u57FRAt8v/+WQVgQ6e9XC4u8ggJZotU4J3fMFeQX7TVlqfhp/2TsEcabyUbdsWMfU/pmcKNjUerZG49gJhnEGA=="
+    },
+    "Elasticsearch.Net/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4/DC0Obx/E7uj7O3oUOhGFgL/tjeipG8YoKaN/sRuzmpNFnhrQk9UlkefQY4606cbHEQtks6TrM+5kMqHDLICg=="
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw=="
+    },
+    "System.Collections.NonGeneric/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hMxFT2RhhlffyCdKLDXjx8WEC5JfCvNozAZxCablAuFRH74SCV4AgzE8yJCh/73bFnEoZgJ9MJmkjQ0dJmnKqA=="
+    },
+    "System.Collections.Specialized/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/HKQyVP0yH1I0YtK7KJL/28snxHNH/bi+0lgk/+MbURF6ULhAE31MDI+NZDerNWu264YbxklXCCygISgm+HMug=="
+    },
+    "System.ComponentModel.Primitives/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sc/7eVCdxPrp3ljpgTKVaQGUXiW05phNWvtv/m2kocXqrUQvTVWKou1Edas2aDjTThLPZOxPYIGNb/HN0QjURg=="
+    },
+    "System.ComponentModel.TypeConverter/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MnDAlaeJZy9pdB5ZdOlwdxfpI+LJQ6e0hmH7d2+y2LkiD8DRJynyDYl4Xxf3fWFm7SbEwBZh4elcfzONQLOoQw=="
+    },
+    "System.Runtime.Serialization.Primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg=="
+    }
+  }
+}
